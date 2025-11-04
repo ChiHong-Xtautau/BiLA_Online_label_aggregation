@@ -8,7 +8,7 @@ If the code helps your work, please cite the following:
 An example of using the label aggregation function is shown in "run_BiLA_example.py".
 
 # To run this file
-The project is developed under python 3.8.10
+The project is developed under python 3.8.10. If you use a newer version of Python, some dependency packages may fail to install.
 
 - pip install -r requirements.txt
 - python run_BiLA_example.py
