@@ -13,5 +13,5 @@ The project is developed under python 3.8.10
 - pip install -r requirements.txt
 - python run_BiLA_example.py
 
-### Configuration
+# Configuration
 - bila_mc.BiLA_MC is the class of the label aggregation algorithm.
