@@ -1,0 +1,424 @@
+/home/shushu/chi/thesis/venv_thesis/bin/python3 /home/shushu/chi/thesis/BiLA_Online_label_aggregation/run_BiLA_example.py
+2025-11-16 21:26:33.798185: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-11-16 21:26:33.836288: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-11-16 21:26:34.360456: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+WARNING:tensorflow:From /home/shushu/chi/thesis/venv_thesis/lib/python3.8/site-packages/tensorflow/python/compat/v2_compat.py:107: disable_resource_variables (from tensorflow.python.ops.variable_scope) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+**********************************************************
+./data/synthetic/ana2d-cifar10-train-noisy-labels-bimodal-noise0.6-empty-prop0.1.txt num_workers: None init_samples: 1000
+majority voting error rate: 0.2474
+WARNING:tensorflow:From /home/shushu/chi/thesis/venv_thesis/lib/python3.8/site-packages/tensorflow/python/training/rmsprop.py:188: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2025-11-16 21:26:35.682413: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:995] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero. See more at https://github.com/torvalds/linux/blob/v6.0/Documentation/ABI/testing/sysfs-bus-pci#L344-L355
+2025-11-16 21:26:35.710098: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1960] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2025-11-16 21:26:35.829920: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:375] MLIR V1 optimization pass is not enabled
+******************************
+current total samples: 500
+online BiLA error rate: 0.148
+mj error rate: 0.23
+******************************
+current total samples: 1000
+online BiLA error rate: 0.156
+mj error rate: 0.243
+******************************
+current total samples: 1500
+online BiLA error rate: 0.15666666666666668
+mj error rate: 0.24933333333333332
+******************************
+current total samples: 2000
+online BiLA error rate: 0.1545
+mj error rate: 0.249
+******************************
+current total samples: 2500
+online BiLA error rate: 0.154
+mj error rate: 0.2524
+******************************
+current total samples: 3000
+online BiLA error rate: 0.15633333333333332
+mj error rate: 0.254
+******************************
+current total samples: 3500
+online BiLA error rate: 0.15828571428571428
+mj error rate: 0.25685714285714284
+******************************
+current total samples: 4000
+online BiLA error rate: 0.159
+mj error rate: 0.259
+******************************
+current total samples: 4500
+online BiLA error rate: 0.15844444444444444
+mj error rate: 0.25577777777777777
+******************************
+current total samples: 5000
+online BiLA error rate: 0.1626
+mj error rate: 0.26
+******************************
+current total samples: 5500
+online BiLA error rate: 0.16327272727272726
+mj error rate: 0.2609090909090909
+******************************
+current total samples: 6000
+online BiLA error rate: 0.16316666666666665
+mj error rate: 0.2618333333333333
+******************************
+current total samples: 6500
+online BiLA error rate: 0.1616923076923077
+mj error rate: 0.2601538461538462
+******************************
+current total samples: 7000
+online BiLA error rate: 0.16142857142857142
+mj error rate: 0.25885714285714284
+******************************
+current total samples: 7500
+online BiLA error rate: 0.16013333333333332
+mj error rate: 0.2597333333333333
+******************************
+current total samples: 8000
+online BiLA error rate: 0.15925
+mj error rate: 0.2575
+******************************
+current total samples: 8500
+online BiLA error rate: 0.15964705882352942
+mj error rate: 0.25788235294117645
+******************************
+current total samples: 9000
+online BiLA error rate: 0.158
+mj error rate: 0.2571111111111111
+******************************
+current total samples: 9500
+online BiLA error rate: 0.1596842105263158
+mj error rate: 0.25842105263157894
+******************************
+current total samples: 10000
+online BiLA error rate: 0.1592
+mj error rate: 0.2585
+******************************
+current total samples: 10500
+online BiLA error rate: 0.15961904761904763
+mj error rate: 0.2579047619047619
+******************************
+current total samples: 11000
+online BiLA error rate: 0.16036363636363637
+mj error rate: 0.2590909090909091
+******************************
+current total samples: 11500
+online BiLA error rate: 0.1611304347826087
+mj error rate: 0.26104347826086954
+******************************
+current total samples: 12000
+online BiLA error rate: 0.16275
+mj error rate: 0.26258333333333334
+******************************
+current total samples: 12500
+online BiLA error rate: 0.16232
+mj error rate: 0.2616
+******************************
+current total samples: 13000
+online BiLA error rate: 0.16184615384615383
+mj error rate: 0.262
+******************************
+current total samples: 13500
+online BiLA error rate: 0.16237037037037036
+mj error rate: 0.2613333333333333
+******************************
+current total samples: 14000
+online BiLA error rate: 0.16192857142857142
+mj error rate: 0.26107142857142857
+******************************
+current total samples: 14500
+online BiLA error rate: 0.16255172413793104
+mj error rate: 0.26068965517241377
+******************************
+current total samples: 15000
+online BiLA error rate: 0.16213333333333332
+mj error rate: 0.25993333333333335
+******************************
+current total samples: 15500
+online BiLA error rate: 0.16206451612903225
+mj error rate: 0.2590967741935484
+******************************
+current total samples: 16000
+online BiLA error rate: 0.1618125
+mj error rate: 0.259
+******************************
+current total samples: 16500
+online BiLA error rate: 0.16163636363636363
+mj error rate: 0.2598787878787879
+******************************
+current total samples: 17000
+online BiLA error rate: 0.16158823529411764
+mj error rate: 0.2606470588235294
+******************************
+current total samples: 17500
+online BiLA error rate: 0.1618857142857143
+mj error rate: 0.2612
+******************************
+current total samples: 18000
+online BiLA error rate: 0.16155555555555556
+mj error rate: 0.26055555555555554
+******************************
+current total samples: 18500
+online BiLA error rate: 0.16205405405405404
+mj error rate: 0.2602162162162162
+******************************
+current total samples: 19000
+online BiLA error rate: 0.16131578947368422
+mj error rate: 0.25963157894736844
+******************************
+current total samples: 19500
+online BiLA error rate: 0.16112820512820514
+mj error rate: 0.25964102564102565
+******************************
+current total samples: 20000
+online BiLA error rate: 0.1617
+mj error rate: 0.26085
+******************************
+current total samples: 20500
+online BiLA error rate: 0.16190243902439025
+mj error rate: 0.2613658536585366
+******************************
+current total samples: 21000
+online BiLA error rate: 0.16180952380952382
+mj error rate: 0.26195238095238094
+******************************
+current total samples: 21500
+online BiLA error rate: 0.16125581395348837
+mj error rate: 0.2622325581395349
+******************************
+current total samples: 22000
+online BiLA error rate: 0.16086363636363638
+mj error rate: 0.2626363636363636
+******************************
+current total samples: 22500
+online BiLA error rate: 0.16053333333333333
+mj error rate: 0.2628
+******************************
+current total samples: 23000
+online BiLA error rate: 0.16056521739130436
+mj error rate: 0.26221739130434785
+******************************
+current total samples: 23500
+online BiLA error rate: 0.15995744680851065
+mj error rate: 0.2618723404255319
+******************************
+current total samples: 24000
+online BiLA error rate: 0.15945833333333334
+mj error rate: 0.26158333333333333
+******************************
+current total samples: 24500
+online BiLA error rate: 0.15902040816326532
+mj error rate: 0.26155102040816325
+******************************
+current total samples: 25000
+online BiLA error rate: 0.15856
+mj error rate: 0.26136
+******************************
+current total samples: 25500
+online BiLA error rate: 0.15737254901960784
+mj error rate: 0.2604705882352941
+******************************
+current total samples: 26000
+online BiLA error rate: 0.15638461538461537
+mj error rate: 0.2598076923076923
+******************************
+current total samples: 26500
+online BiLA error rate: 0.15550943396226416
+mj error rate: 0.2588679245283019
+******************************
+current total samples: 27000
+online BiLA error rate: 0.15407407407407409
+mj error rate: 0.25833333333333336
+******************************
+current total samples: 27500
+online BiLA error rate: 0.15345454545454545
+mj error rate: 0.25836363636363635
+******************************
+current total samples: 28000
+online BiLA error rate: 0.15217857142857144
+mj error rate: 0.2576785714285714
+******************************
+current total samples: 28500
+online BiLA error rate: 0.15119298245614035
+mj error rate: 0.2575789473684211
+******************************
+current total samples: 29000
+online BiLA error rate: 0.15048275862068966
+mj error rate: 0.2572758620689655
+******************************
+current total samples: 29500
+online BiLA error rate: 0.14949152542372882
+mj error rate: 0.2569491525423729
+******************************
+current total samples: 30000
+online BiLA error rate: 0.14896666666666666
+mj error rate: 0.2569666666666667
+******************************
+current total samples: 30500
+online BiLA error rate: 0.1481967213114754
+mj error rate: 0.2564262295081967
+******************************
+current total samples: 31000
+online BiLA error rate: 0.1479032258064516
+mj error rate: 0.25661290322580643
+******************************
+current total samples: 31500
+online BiLA error rate: 0.14682539682539683
+mj error rate: 0.25596825396825396
+******************************
+current total samples: 32000
+online BiLA error rate: 0.14575
+mj error rate: 0.25525
+******************************
+current total samples: 32500
+online BiLA error rate: 0.1452
+mj error rate: 0.25516923076923076
+******************************
+current total samples: 33000
+online BiLA error rate: 0.14445454545454545
+mj error rate: 0.25436363636363635
+******************************
+current total samples: 33500
+online BiLA error rate: 0.1440597014925373
+mj error rate: 0.2541492537313433
+******************************
+current total samples: 34000
+online BiLA error rate: 0.14341176470588235
+mj error rate: 0.2539705882352941
+******************************
+current total samples: 34500
+online BiLA error rate: 0.14281159420289855
+mj error rate: 0.2534492753623188
+******************************
+current total samples: 35000
+online BiLA error rate: 0.14205714285714285
+mj error rate: 0.25305714285714287
+******************************
+current total samples: 35500
+online BiLA error rate: 0.1415492957746479
+mj error rate: 0.2523098591549296
+******************************
+current total samples: 36000
+online BiLA error rate: 0.1408611111111111
+mj error rate: 0.25219444444444444
+******************************
+current total samples: 36500
+online BiLA error rate: 0.14024657534246576
+mj error rate: 0.2521369863013699
+******************************
+current total samples: 37000
+online BiLA error rate: 0.13983783783783785
+mj error rate: 0.2518108108108108
+******************************
+current total samples: 37500
+online BiLA error rate: 0.13938666666666666
+mj error rate: 0.2515733333333333
+******************************
+current total samples: 38000
+online BiLA error rate: 0.1391842105263158
+mj error rate: 0.2513157894736842
+******************************
+current total samples: 38500
+online BiLA error rate: 0.13877922077922078
+mj error rate: 0.25116883116883115
+******************************
+current total samples: 39000
+online BiLA error rate: 0.138
+mj error rate: 0.25064102564102564
+******************************
+current total samples: 39500
+online BiLA error rate: 0.13759493670886075
+mj error rate: 0.2501518987341772
+******************************
+current total samples: 40000
+online BiLA error rate: 0.13745
+mj error rate: 0.24985
+******************************
+current total samples: 40500
+online BiLA error rate: 0.1371111111111111
+mj error rate: 0.25007407407407406
+******************************
+current total samples: 41000
+online BiLA error rate: 0.13682926829268294
+mj error rate: 0.24995121951219512
+******************************
+current total samples: 41500
+online BiLA error rate: 0.13674698795180723
+mj error rate: 0.2496144578313253
+******************************
+current total samples: 42000
+online BiLA error rate: 0.13683333333333333
+mj error rate: 0.2495
+******************************
+current total samples: 42500
+online BiLA error rate: 0.1364235294117647
+mj error rate: 0.2492470588235294
+******************************
+current total samples: 43000
+online BiLA error rate: 0.13630232558139535
+mj error rate: 0.24893023255813954
+******************************
+current total samples: 43500
+online BiLA error rate: 0.13627586206896553
+mj error rate: 0.2487816091954023
+******************************
+current total samples: 44000
+online BiLA error rate: 0.13588636363636364
+mj error rate: 0.248
+******************************
+current total samples: 44500
+online BiLA error rate: 0.13575280898876405
+mj error rate: 0.24806741573033708
+******************************
+current total samples: 45000
+online BiLA error rate: 0.13584444444444443
+mj error rate: 0.24826666666666666
+******************************
+current total samples: 45500
+online BiLA error rate: 0.1358021978021978
+mj error rate: 0.24795604395604395
+******************************
+current total samples: 46000
+online BiLA error rate: 0.13621739130434782
+mj error rate: 0.24819565217391304
+******************************
+current total samples: 46500
+online BiLA error rate: 0.1361505376344086
+mj error rate: 0.24808602150537634
+******************************
+current total samples: 47000
+online BiLA error rate: 0.13659574468085106
+mj error rate: 0.2481063829787234
+******************************
+current total samples: 47500
+online BiLA error rate: 0.1364421052631579
+mj error rate: 0.24806315789473685
+******************************
+current total samples: 48000
+online BiLA error rate: 0.13647916666666668
+mj error rate: 0.24808333333333332
+******************************
+current total samples: 48500
+online BiLA error rate: 0.136680412371134
+mj error rate: 0.2478762886597938
+******************************
+current total samples: 49000
+online BiLA error rate: 0.13679591836734695
+mj error rate: 0.247734693877551
+******************************
+current total samples: 49500
+online BiLA error rate: 0.13682828282828283
+mj error rate: 0.2475959595959596
+******************************
+current total samples: 50000
+online BiLA error rate: 0.13668
+mj error rate: 0.2474
+******************************************
+num_aggregated_samples [500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 9500, 10000, 10500, 11000, 11500, 12000, 12500, 13000, 13500, 14000, 14500, 15000, 15500, 16000, 16500, 17000, 17500, 18000, 18500, 19000, 19500, 20000, 20500, 21000, 21500, 22000, 22500, 23000, 23500, 24000, 24500, 25000, 25500, 26000, 26500, 27000, 27500, 28000, 28500, 29000, 29500, 30000, 30500, 31000, 31500, 32000, 32500, 33000, 33500, 34000, 34500, 35000, 35500, 36000, 36500, 37000, 37500, 38000, 38500, 39000, 39500, 40000, 40500, 41000, 41500, 42000, 42500, 43000, 43500, 44000, 44500, 45000, 45500, 46000, 46500, 47000, 47500, 48000, 48500, 49000, 49500, 50000]
+BiLA_error_rates [0.148, 0.156, 0.15666666666666668, 0.1545, 0.154, 0.15633333333333332, 0.15828571428571428, 0.159, 0.15844444444444444, 0.1626, 0.16327272727272726, 0.16316666666666665, 0.1616923076923077, 0.16142857142857142, 0.16013333333333332, 0.15925, 0.15964705882352942, 0.158, 0.1596842105263158, 0.1592, 0.15961904761904763, 0.16036363636363637, 0.1611304347826087, 0.16275, 0.16232, 0.16184615384615383, 0.16237037037037036, 0.16192857142857142, 0.16255172413793104, 0.16213333333333332, 0.16206451612903225, 0.1618125, 0.16163636363636363, 0.16158823529411764, 0.1618857142857143, 0.16155555555555556, 0.16205405405405404, 0.16131578947368422, 0.16112820512820514, 0.1617, 0.16190243902439025, 0.16180952380952382, 0.16125581395348837, 0.16086363636363638, 0.16053333333333333, 0.16056521739130436, 0.15995744680851065, 0.15945833333333334, 0.15902040816326532, 0.15856, 0.15737254901960784, 0.15638461538461537, 0.15550943396226416, 0.15407407407407409, 0.15345454545454545, 0.15217857142857144, 0.15119298245614035, 0.15048275862068966, 0.14949152542372882, 0.14896666666666666, 0.1481967213114754, 0.1479032258064516, 0.14682539682539683, 0.14575, 0.1452, 0.14445454545454545, 0.1440597014925373, 0.14341176470588235, 0.14281159420289855, 0.14205714285714285, 0.1415492957746479, 0.1408611111111111, 0.14024657534246576, 0.13983783783783785, 0.13938666666666666, 0.1391842105263158, 0.13877922077922078, 0.138, 0.13759493670886075, 0.13745, 0.1371111111111111, 0.13682926829268294, 0.13674698795180723, 0.13683333333333333, 0.1364235294117647, 0.13630232558139535, 0.13627586206896553, 0.13588636363636364, 0.13575280898876405, 0.13584444444444443, 0.1358021978021978, 0.13621739130434782, 0.1361505376344086, 0.13659574468085106, 0.1364421052631579, 0.13647916666666668, 0.136680412371134, 0.13679591836734695, 0.13682828282828283, 0.13668]
+mj_error_rates [0.23, 0.243, 0.24933333333333332, 0.249, 0.2524, 0.254, 0.25685714285714284, 0.259, 0.25577777777777777, 0.26, 0.2609090909090909, 0.2618333333333333, 0.2601538461538462, 0.25885714285714284, 0.2597333333333333, 0.2575, 0.25788235294117645, 0.2571111111111111, 0.25842105263157894, 0.2585, 0.2579047619047619, 0.2590909090909091, 0.26104347826086954, 0.26258333333333334, 0.2616, 0.262, 0.2613333333333333, 0.26107142857142857, 0.26068965517241377, 0.25993333333333335, 0.2590967741935484, 0.259, 0.2598787878787879, 0.2606470588235294, 0.2612, 0.26055555555555554, 0.2602162162162162, 0.25963157894736844, 0.25964102564102565, 0.26085, 0.2613658536585366, 0.26195238095238094, 0.2622325581395349, 0.2626363636363636, 0.2628, 0.26221739130434785, 0.2618723404255319, 0.26158333333333333, 0.26155102040816325, 0.26136, 0.2604705882352941, 0.2598076923076923, 0.2588679245283019, 0.25833333333333336, 0.25836363636363635, 0.2576785714285714, 0.2575789473684211, 0.2572758620689655, 0.2569491525423729, 0.2569666666666667, 0.2564262295081967, 0.25661290322580643, 0.25596825396825396, 0.25525, 0.25516923076923076, 0.25436363636363635, 0.2541492537313433, 0.2539705882352941, 0.2534492753623188, 0.25305714285714287, 0.2523098591549296, 0.25219444444444444, 0.2521369863013699, 0.2518108108108108, 0.2515733333333333, 0.2513157894736842, 0.25116883116883115, 0.25064102564102564, 0.2501518987341772, 0.24985, 0.25007407407407406, 0.24995121951219512, 0.2496144578313253, 0.2495, 0.2492470588235294, 0.24893023255813954, 0.2487816091954023, 0.248, 0.24806741573033708, 0.24826666666666666, 0.24795604395604395, 0.24819565217391304, 0.24808602150537634, 0.2481063829787234, 0.24806315789473685, 0.24808333333333332, 0.2478762886597938, 0.247734693877551, 0.2475959595959596, 0.2474]
+
+Process finished with exit code 0

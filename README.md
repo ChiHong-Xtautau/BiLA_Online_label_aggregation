@@ -15,3 +15,7 @@ The project is developed under python 3.8.10. If you use a newer version of Pyth
 
 # Configuration
 - bila_mc.BiLA_MC is the class of the label aggregation algorithm.
+
+# Expected Results
+- The error rate on the online aggregated labels of BiLA and majority voting will be shown after running.
+- one training log is shown in "./example_log.txt"
