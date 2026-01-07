@@ -74,7 +74,7 @@ def run():
 
 	# cifar10
 	BiLA_online(noisy_labels_file, ground_truth_file, ieo=20, ueo=20, init_samples=1000, chunk_size=500)
-	#BiLA_online(noisy_labels_file, ground_truth_file, ieo=20, ueo=20, init_samples=1000, chunk_size=200)
+	#BiLA_online(noisy_labels_file, ground_truth_file, ieo=20, ueo=20, init_samples=1000, chunk_size=200) # you may try different size of chunks
 
 
 if __name__ == "__main__":
